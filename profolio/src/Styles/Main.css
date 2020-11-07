@@ -1,0 +1,11 @@
+.profile{
+    display: flex;
+    background-color: #00b4d8 ;
+    /* height : 25vw; */
+}
+.profile img{
+    display: block;
+    margin-left: auto;
+    height:20vw;
+    /* background-color: white; */
+}
