@@ -1,66 +1,66 @@
-import Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
-import React from "react"
-import CodingExperience from "../Psudo Database/CodeingExperience"
+// import Highcharts from 'highcharts';
+// import HighchartsReact from 'highcharts-react-official';
+// import React from "react"
+// import CodingExperience from "../Psudo Database/CodeingExperience"
 
 
-export default function Graph(){
+// export default function Graph(){
 
 
-	const languages= []
+// 	const languages= []
 
 
-	CodingExperience.map(i =>{
-		languages.push(i.name)
+// 	CodingExperience.map(i =>{
+// 		languages.push(i.name)
 		
-	}
-)
-	const options = {
-		chart: {
+// 	}
+// )
+// 	const options = {
+// 		chart: {
 			
-		  type: 'column'
-		},
-		xAxis: {
-			// type: 'category',
-			categories:languages,
+// 		  type: 'column'
+// 		},
+// 		xAxis: {
+// 			// type: 'category',
+// 			categories:languages,
 
-			title: {
-				text: 'Languages'
-			  }
-		  },
-		  legend: {
-			enabled: false
-		  },
-		yAxis: {
-			title: {
-				text: 'years'
-			  }
-		  },
-		title: {
-		  text: 'Languages'
-		},
-		plotOptions: {
-			series: {
-			  borderWidth: 0,
-			  dataLabels: {
-				enabled: true,
-				format: '{point.y:.1f}%'
-			  }
-			}
-		  },
-		series: [
-		  {
-			  name:"Languages",
-			  data: CodingExperience
+// 			title: {
+// 				text: 'Languages'
+// 			  }
+// 		  },
+// 		  legend: {
+// 			enabled: false
+// 		  },
+// 		yAxis: {
+// 			title: {
+// 				text: 'years'
+// 			  }
+// 		  },
+// 		title: {
+// 		  text: 'Languages'
+// 		},
+// 		plotOptions: {
+// 			series: {
+// 			  borderWidth: 0,
+// 			  dataLabels: {
+// 				enabled: true,
+// 				format: '{point.y:.1f}%'
+// 			  }
+// 			}
+// 		  },
+// 		series: [
+// 		  {
+// 			  name:"Languages",
+// 			  data: CodingExperience
 			
-		  }
-		]
-	  };
-	  console.log(languages)
+// 		  }
+// 		]
+// 	  };
+// 	  console.log(languages)
 
-	return(
-		<div>
-			<HighchartsReact highcharts={Highcharts} options={options} />
-		</div>
-	)
-}
+// 	return(
+// 		<div>
+// 			<HighchartsReact highcharts={Highcharts} options={options} />
+// 		</div>
+// 	)
+// }
