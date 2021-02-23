@@ -8,7 +8,7 @@ import GithubIcon from "../Images/Language Icons/github-icon.png"
 import ResumeIcon from "../Images/resume-icon.png"
 import LinkInIcon from "../Images/linkedin-icon.png"
 
-// import Resume from ""
+import Resume from "../JChen resume.pdf"
 
 export default function Contact (){
 
@@ -42,7 +42,7 @@ export default function Contact (){
                             <a href="https://www.linkedin.com/in/jimmy-chen-4b3105b8/" target="_blank"> <img src={LinkInIcon}/></a>
                         </div>
                         <div className="icons">
-                            <a href="../JChen resume.lnk" download> <img src={ResumeIcon}/></a>
+                            <a href={Resume} download> <img src={ResumeIcon}/></a>
                         </div>       
                     </div>
 
