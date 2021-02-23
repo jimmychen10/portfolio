@@ -1,7 +1,7 @@
-Steps to run this program
+#Steps to run this program#
 
 1. open terminal
-2. Type in these Bash commands
-    a. cd profilio
-    b. npm i
-    c. npm start
+2. Type in these Bash commands:
+    1. cd profilio
+    2. npm i
+    3. npm start
