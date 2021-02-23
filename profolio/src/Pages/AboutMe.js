@@ -1,10 +1,10 @@
 import React from 'react'
 // import Styles from '../Styles/AboutMe.css' 
-import ScrollspyNav from "react-scrollspy-nav";
+
 import Picture from "../Images/Jimmy.png"
-import Graph from "../Components/Graph"
+
 import '../Styles/AboutMe.css' 
-import CodeingExperience from "../Psudo Database/CodeingExperience"
+import CodeingExperience from "../Psudo_Database/CodeingExperience"
 
 // import "../Images/Projects/proprofolio_website.png"
 export default function AboutMe (){

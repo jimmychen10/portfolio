@@ -1,8 +1,8 @@
 import React from 'react'
 import style from "../Styles/projects.css"
-import ProjectDB from "../Psudo Database/projectDB.js"
+import ProjectDB from "../Psudo_Database/projectDB.js"
 import IndividualProject from "../Components/IndividualProjects.js"
-import ScrollspyNav from "react-scrollspy-nav";
+
 
 export default function Project (){
     const projects = ProjectDB.map( i =>{
