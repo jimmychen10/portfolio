@@ -1,24 +1,22 @@
 import React from "react"
 import Jimmy from "../Images/Jimmy.png"
+import Home from "./Home.js"
+import AboutMe from './AboutMe.js'
+import Conact from "./Contact.js"
+import Project from "./Project.js"
+import Animation from "../Components/Animation"
 import "../Styles/Main.css"
 // import Graph from "../Components/Graph.js"
 
 
 function Main(){
     return(
-        <div>
-            <div className=" profile w-75 ml-auto mr-auto">
-                <div className="col-sm-8">git 
-                    <h1 className = "">Jimmy Chen</h1>
-                    <h3>Code for the future</h3>
-                </div>
-                <div className="col-sm-4">
-                    <img  src = {Jimmy} />
-                </div>
-                
-            </div>
-
-            {/* <Graph/> */}
+        <div className="main">
+            <Home/>
+      
+            <AboutMe/>
+            <Project/>
+            <Conact/>            
         </div>
 
     )

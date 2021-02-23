@@ -1,0 +1,108 @@
+.home{
+    height: 100%;
+    
+    /* background-color: #fffffc; */
+    /* border: 3px solid red; */
+
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 20% 20%  25% 35%;
+    color: aliceblue;
+
+}
+.home h1,h2{
+    text-align: center;
+    
+}
+.home span{
+    font-size: 10vw;
+    color: #5CF1FF;
+}
+.home h1{
+    font-size: 9vh;
+    
+}
+
+
+.mainTitle{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+.moreInfo{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    
+}
+.moreInfo a{
+    text-decoration: none ;
+}
+.moreInfo h3{
+    text-align: center;
+    color:aliceblue ;
+    transition: all .2s ease-in-out;
+   
+}
+
+.moreInfo h3:hover{
+    transform: scale(1.1);
+    
+    
+}
+.moreInfo img{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    
+}
+
+
+
+.arrow{
+    /* margin-top: 20vh; */
+    display: block;
+    height: 5vh;
+    margin: 0px auto;
+    transition: all .2s ease-in-out;
+}
+.arrow:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+@media only screen and (max-width:1085px) {
+    .home h2{
+        font-size: 20px;
+        
+        
+    }
+    .home{
+        height: 100%;
+        
+        /* background-color: #fffffc; */
+        /* border: 3px solid red; */
+    
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 20% 20%  25% 35%;
+        color: aliceblue;
+    
+    }
+
+    
+  }
+  @media only screen and (max-width: 540px) {
+    .home h1{
+        font-size: 38px;
+        
+        
+    }
+    .home{
+
+        grid-template-columns: 10% 80% 10%;
+
+    
+    }
+}

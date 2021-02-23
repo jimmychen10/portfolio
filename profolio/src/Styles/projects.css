@@ -1,0 +1,94 @@
+.project{
+    min-height: 100%;
+    
+    /* background-color: dodgerblue;
+    border: 3px solid red; */
+
+    display: grid;
+    /* grid-template-columns:repeat(12,1fr); */
+    grid-template-columns: 20% 60% 20%;
+
+    grid-template-rows: 10% 15% 10px auto 10%;
+    grid-gap: 10px;
+
+}
+
+.projectPageTitle{
+    grid-column: 2/3;
+    grid-row: 2;
+
+
+    /* background-color: slateblue; */
+    
+    width: auto;
+    /* font-size: 100%; */
+    color: aliceblue;
+    border-bottom: 5px solid aliceblue;
+    height: fit-content;
+    
+    
+}
+.projectPageTitle h1{
+    font-size: 9vh;
+}
+
+
+.projectDisplayContainer{
+    grid-column: 2; 
+    grid-row: 4 ;
+    margin: 0px auto;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: start;
+    border-radius: 1%;
+
+    overflow: scroll;
+    overflow-x: hidden; 
+    
+
+   
+}
+
+ 
+@media only screen and (max-width: 480px) {
+ 
+ 
+    .project{
+        min-height: 100%;
+        
+        display: grid;
+        /* grid-template-columns:repeat(12,1fr); */
+        grid-template-columns: 1fr 80% 1fr;
+    
+        /* grid-template-rows: repeat(4,minmax(1fr,auto)); */
+        grid-template-rows: 10% 10% 10px auto fit-content;
+        grid-gap: 10px;
+    
+    }
+
+    
+}
+@media only screen and (max-width: 540px) {
+    .projectPageTitle h1{
+        font-size: 9vw;
+        text-align: center;
+    }
+
+    
+  }
+
+
+
+@media only screen and (min-width: 1751px) {
+
+    
+.projectDisplayContainer{
+
+
+    overflow-y: hidden; 
+    
+
+   
+}
+}

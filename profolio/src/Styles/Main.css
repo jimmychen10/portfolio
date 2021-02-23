@@ -1,11 +1,14 @@
-.profile{
-    display: flex;
-    background-color: #00b4d8 ;
-    /* height : 25vw; */
+
+.main{
+    height: auto;
+    overflow: auto;
 }
-.profile img{
-    display: block;
-    margin-left: auto;
-    height:20vw;
-    /* background-color: white; */
+.animation{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    
 }

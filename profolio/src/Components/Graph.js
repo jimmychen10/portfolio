@@ -1,44 +1,66 @@
+import Highcharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official';
+import React from "react"
+import CodingExperience from "../Psudo Database/CodeingExperience"
 
-import React,{Component} from "react"
-import CanvasJSReact from '../Assets/canvasjs.react.js';
-import "../Styles/Graph.css"
 
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+export default function Graph(){
 
-class Graph extends Component{
 
-render(){
+	const languages= []
+
+
+	CodingExperience.map(i =>{
+		languages.push(i.name)
+		
+	}
+)
 	const options = {
-		title: {
-		  text: "Experiences in "
+		chart: {
+			
+		  type: 'column'
 		},
-		data: [{				
-				  type: "column",
-				  color: "#0077B6",
-				  dataPoints: [
-					{ label: "ReactJs", y: 1 },
-					{ label: "c++", y: 1 },
-					  { label: "HTML",  y: 2  },
-					  { label: "CSS", y: 2  },
-					  { label: "Javascript", y: 2  },
-					  { label: "Python",  y: 3  },
-					  { label: "Java",  y: 4 }
-				  ]
-		 }]
-		}
+		xAxis: {
+			// type: 'category',
+			categories:languages,
+
+			title: {
+				text: 'Languages'
+			  }
+		  },
+		  legend: {
+			enabled: false
+		  },
+		yAxis: {
+			title: {
+				text: 'years'
+			  }
+		  },
+		title: {
+		  text: 'Languages'
+		},
+		plotOptions: {
+			series: {
+			  borderWidth: 0,
+			  dataLabels: {
+				enabled: true,
+				format: '{point.y:.1f}%'
+			  }
+			}
+		  },
+		series: [
+		  {
+			  name:"Languages",
+			  data: CodingExperience
+			
+		  }
+		]
+	  };
+	  console.log(languages)
 
 	return(
-		<div >
-		<CanvasJSChart options = {options}/>
-	  </div>
+		<div>
+			<HighchartsReact highcharts={Highcharts} options={options} />
+		</div>
 	)
-
-
 }
-}
-
-
-
-
-		  
-export default Graph
