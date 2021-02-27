@@ -14,7 +14,8 @@
     min-width: 341px;
     background-color: aliceblue;
     border-radius: 5%;
-    height: auto;
+    /* height: fit-content; */
+    display: inline-block;
     /* overflow:visible; */
 }
 
@@ -59,7 +60,7 @@
         min-width: 0px;
         background-color: aliceblue;
         border-radius: 5%;
-        height: auto;
+        height: fit-content;
         /* overflow:visible; */
     }
 

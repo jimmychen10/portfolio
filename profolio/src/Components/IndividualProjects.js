@@ -6,9 +6,7 @@ export default function IndividualProject(props){
         <div className = "indiviualProjects">
             <img src ={props.project.img} />
             <h2>{props.project.name}</h2>
-            {/* <div className = "description">
-                <p>{props.project.description}</p>
-            </div> */}
+            
             <div>
                 <div className="links">
                     <div className="liveVer">
@@ -19,6 +17,7 @@ export default function IndividualProject(props){
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
