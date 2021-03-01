@@ -23,14 +23,11 @@ export default function AboutMe (){
 
         return (
 
-            
-            
             <div className= "aboutMe" id = "AboutMe">
                 <div className="aboutMeTitle">
                     <h1>About Me</h1>
                 </div>
                 
-
                 <div className="me">
                     <div className="cardheader"> </div>
                     <div className="p">
@@ -41,9 +38,9 @@ export default function AboutMe (){
                              <div className="title">
                                 <h1>Jimmy Chen</h1>
                              </div>
-                             <div className="description">
-                                <p>Self driven coder trying to make a change for a better tommorrow.</p>
-                             </div>
+                             {/* <div className="description">
+                                <p></p>
+                             </div> */}
                         </div>
                         </div>
                 </div>

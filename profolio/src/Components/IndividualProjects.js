@@ -10,10 +10,10 @@ export default function IndividualProject(props){
             <div>
                 <div className="links">
                     <div className="liveVer">
-                        <a href ="#Live" ><p>Live</p> </a>
+                        <a href={props.project.liveVersion }  target="_blank"><p>Live</p> </a>
                     </div>
                     <div className="githubVer">
-                        <a href={props.project.githubLink }><p>Github</p> </a>
+                        <a href={props.project.githubLink } target="_blank"><p>Github</p> </a>
                     </div>
                 </div>
             </div>

@@ -1,22 +1,17 @@
-/* .description{
-    height: 20%;
 
-} */
 
 .indiviualProjects{
     border: 5px solid aliceblue;
-    /* display: block;
-    overflow: auto; */
+
     margin: 5px auto;
     width: 30.3333%;
-    /* min-width: 377px; */
+
     max-height: 291px;
     min-width: 341px;
     background-color: aliceblue;
     border-radius: 5%;
-    /* height: fit-content; */
+
     display: inline-block;
-    /* overflow:visible; */
 }
 
 .indiviualProjects img{

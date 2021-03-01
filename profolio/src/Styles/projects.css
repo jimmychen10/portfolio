@@ -16,12 +16,9 @@
 .projectPageTitle{
     grid-column: 2/3;
     grid-row: 2;
-
-
-    /* background-color: slateblue; */
     
     width: auto;
-    /* font-size: 100%; */
+
     color: aliceblue;
     border-bottom: 5px solid aliceblue;
     height: fit-content;
@@ -45,9 +42,6 @@
 
     overflow: scroll;
     overflow-x: hidden; 
-    
-
-   
 }
 
  

@@ -74,6 +74,7 @@
     /* height: 135px; */
     background-color: rgb(240, 240, 240);
     height: 100%;
+    
 }
 
 .cardheader {
@@ -125,6 +126,7 @@
     color: #262626;
     /* background-color: rgba(5, 186, 231, 0.541); */
     vertical-align: middle;
+    font-size: 24px;
 }
 
 .z{
@@ -135,6 +137,8 @@
     align-items: center;
     width: 50%;
     min-width: 222px;
+    overflow-y: hidden  !important; 
+
 }
 .z h3{
     
