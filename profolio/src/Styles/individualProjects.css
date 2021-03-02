@@ -5,8 +5,8 @@
 
     margin: 5px auto;
     width: 30.3333%;
-
-    max-height: 291px;
+    height: fit-content;
+    /* max-height: 30vh; */
     min-width: 341px;
     background-color: aliceblue;
     border-radius: 5%;
@@ -45,7 +45,13 @@
 .liveVer{
     background-color: #fff;
 }
-
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    
+  }
 @media only screen and (max-width: 596px) {
 
     .indiviualProjects{
@@ -60,3 +66,4 @@
     }
 
 }
+
