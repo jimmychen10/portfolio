@@ -46,7 +46,7 @@
     background-color: #fff;
 }
 .isDisabled {
-    color: currentColor;
+    color: grey;
     cursor: not-allowed;
     opacity: 0.5;
     text-decoration: none;

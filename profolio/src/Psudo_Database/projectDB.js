@@ -14,7 +14,6 @@ const projectDB = [
         id:2,
         name : "Weather Forecast",
         img : WeatherPic,
-        
         githubLink : "https://github.com/jimmychen10/weather-todo-app",
         liveVersion : "https://master.d7muh3cwc21ng.amplifyapp.com/"
 
@@ -23,7 +22,7 @@ const projectDB = [
         id:3,
         name : "Tank Game",
         img : GamePic,
-        githubLink : "https://github.com/jimmychen10/Tank-Game/tree/maink",
+        githubLink : "https://github.com/jimmychen10/Tank-Game",
         liveVersion : ""
 
     },
