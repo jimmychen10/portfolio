@@ -14,14 +14,7 @@ class Ball{
     opacityUpdate(){
 
     }
-
-    // draw(){
-    //     this.c.beginPath();
-    //     this.c.arc(this.x,this.y,5,0,2*Math.PI);
-    //     this.c.fillStyle = "rgba(" + this.pick_color +","+this.opacity+")";
-    //     this.c.fill();
-    //       }
-          
+       
     update(){
       if( this.x >= window.innerWidth || this.x < 0 ){
         this.dx = -this.dx;
@@ -31,10 +24,7 @@ class Ball{
             }
             this.x += this.dx;
             this.y += this.dy;      
-            // this.draw();
           }
-
-
 
 }
 

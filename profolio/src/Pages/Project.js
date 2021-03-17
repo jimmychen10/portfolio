@@ -10,10 +10,7 @@ export default function Project (){
                 <IndividualProject   id = {i.id} project = {i}/>
         )
     })
-
-
         return (
-            
             <div className= "project" id ="Projects">
 
                 <div className="projectPageTitle">

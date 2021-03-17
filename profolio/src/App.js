@@ -5,8 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Animation from "./Components/Animation"
 import Ball from "./Components/Ball.js"
 
-
-
 function App() {
 
   const balls = []
@@ -23,16 +21,11 @@ function App() {
   return (
     
     <div className="App">
-    {console.log("ball arry=" , balls)}
     <div className = "animation">
-            <Animation balls = {balls}/>
+      <Animation balls = {balls}/>
     </div>
       <Navigation/>
       <Main />
-      
-        
-
-      
     </div>
   );
 }

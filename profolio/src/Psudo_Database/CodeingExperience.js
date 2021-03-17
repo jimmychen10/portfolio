@@ -1,4 +1,3 @@
-
 import BootstrapIcon from "../Images/Language Icons/Bootstrap_logo.png"
 import CSSIcon from "../Images/Language Icons/css-logo.png"
 import GitIcon from "../Images/Language Icons/Git-Icon.png"
@@ -9,10 +8,7 @@ import JavaIcon from "../Images/Language Icons/java.png"
 import JavaScriptIcon from "../Images/Language Icons/JavaScript-logo.png"
 import PythonIcon from "../Images/Language Icons/python-logo.png"
 import ReactIcon from "../Images/Language Icons/React-logo.png"
-import SqlIcon from "../Images/Language Icons/sql-icon.png"
-import MysqlIcon from "../Images/Language Icons/mysql-icon.png"
 
-// import t from "../Images/Language Icons"
 const CodingExperience =[
 
     {
@@ -52,37 +48,25 @@ const CodingExperience =[
         image: JavaIcon
     },
     {
-        id:7,
-        name: "SQL",
-        y:1,
-        image: SqlIcon
-    },
-    {
         id:8,
-        name: "MySQL",
-        y:1,
-        image: MysqlIcon
-    },
-    {
-        id:9,
         name: "Bootstrap",
         y:1,
         image: BootstrapIcon
     },
     {
-        id:10,
+        id:9,
         name: "GitBash",
         y:1,
         image: GitBashIcon
     },
     {
-        id:11,
+        id:10,
         name: "git",
         y:1,
         image:GitIcon
     },
     {
-        id:12,
+        id:11,
         name: "github",
         y:1,
         image:GithubIcon

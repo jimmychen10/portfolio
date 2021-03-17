@@ -1,7 +1,6 @@
 import Canvas from "./Canvas"
 import React,{useState, useEffect} from "react"
 
-
 function Animation (props) {
   const [angle,setAngle] = useState(0)
   const [ballz,setBallz] = useState(props.balls)

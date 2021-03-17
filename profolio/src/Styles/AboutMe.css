@@ -1,11 +1,6 @@
 
 .aboutMe{
     min-height: 100%;
-    
-    
-    /* background-color: #fffffc; */
-    /* border: 3px solid red; */
-
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 15% 35% 10%  10% auto;
@@ -20,10 +15,8 @@
 
 
 .pictureBackground{
-    /* display: inline; */
     background-color: brown;
     display: inline;
-    /* height:100%; */
     width: auto;
     height: fit-content;
 
@@ -32,14 +25,11 @@
 .pictureBackground img{
     height: 100%;
     display: block;
-    
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
     border-radius: 50%;
-    scroll-behavior: smooth;
-    /* width: 25%; */
-    
+    scroll-behavior: smooth;    
 }
 
 .introB{
@@ -55,8 +45,6 @@
     flex-wrap: wrap;  
     overflow-x: hidden; 
 }
-
-
 
 .me{
     grid-column: 2/3;
@@ -115,7 +103,6 @@
     font-size: 5vh;
     line-height: 1;
     color: #262626;
-    /* background-color: rgba(5, 186, 231, 0.541); */
     vertical-align: middle;
 }
 
@@ -124,7 +111,6 @@
     font-size: 3vh;
     line-height: 1;
     color: #262626;
-    /* background-color: rgba(5, 186, 231, 0.541); */
     vertical-align: middle;
     font-size: 24px;
 }
@@ -142,21 +128,14 @@
 
 }
 .z h3{
-    
     text-align: center;
-    /* display: inline; */
-
     margin-left: 1%;
-
 }
 .z img{
-    /* display: inline; */
     height: 40px;
-
 }
 
 .aboutMeTitle{
-    /* font-size: 100px; */
     grid-column: 2/3;
     grid-row: 1/2;
     height: fit-content;
@@ -166,18 +145,14 @@
 
 .aboutMeTitle h1{
     font-size: 9vh ;
-    
-
 }
 
 .languageTitle{
-    /* font-size: 9vh; */
     font-size: 9vh;
     grid-column: 2/3;
     grid-row: 4/5;
 }
 .languageTitle h2{
-    /* font-size: 9vh; */
     font-size: 5vh;
 }
 @media only screen and (max-width: 739px) {
@@ -192,44 +167,26 @@
         overflow: scroll;
         overflow-x: hidden;
         height: 75px;
-        
     }
     .z h3{
-    
         text-align: center;
-    
         margin-left: 1%;
-    
     }
 }
 
 @media only screen and (max-width: 480px) {
-
-
     .aboutMe{
         min-height: 100%;
-        
-        /* background-color: #fffffc; */
-        /* border: 3px solid red; */
-    
         display: grid;
         grid-template-columns: 10% 80% 10%;
         grid-template-rows: auto 25% 5%  10% auto;
         color: aliceblue;
     }
-    
-
   }
 
-  @media only screen and (max-width: 540px) {
+@media only screen and (max-width: 540px) {
     .aboutMeTitle h1{
         font-size: 9vw ;
         text-align: center;
-    
     }
-
-    
   }
-
-  
-

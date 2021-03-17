@@ -1,28 +1,18 @@
 import React from 'react'
-// import Styles from '../Styles/AboutMe.css' 
-
 import Picture from "../Images/Jimmy.png"
-
 import '../Styles/AboutMe.css' 
 import CodeingExperience from "../Psudo_Database/CodeingExperience"
 
-// import "../Images/Projects/proprofolio_website.png"
 export default function AboutMe (){
-
     const listLanguages = CodeingExperience.map(item =>{
-        return(
-        
+        return( 
             <div className = "z">
                 <img src={item.image}/>
-                <h3> {item.name}</h3>
-                
-            </div>
-        
+                <h3> {item.name}</h3>      
+            </div>      
         )
     })
-
         return (
-
             <div className= "aboutMe" id = "AboutMe">
                 <div className="aboutMeTitle">
                     <h1>About Me</h1>
@@ -44,8 +34,6 @@ export default function AboutMe (){
                         </div>
                         </div>
                 </div>
-
-
                 <div className = "languageTitle">
                     <h2>Languages</h2>
                 </div>
@@ -57,7 +45,4 @@ export default function AboutMe (){
 
             </div>
         )
-
-
-
 }

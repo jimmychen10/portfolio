@@ -19,8 +19,6 @@ export default function IndividualProject(props){
         githubDisable = false
     }
     
-    
-
     return(
         <div className = "indiviualProjects">
             <img src ={props.project.img} />
