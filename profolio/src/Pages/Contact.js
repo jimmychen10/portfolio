@@ -8,7 +8,7 @@ import GithubIcon from "../Images/Language Icons/github-icon.png"
 import ResumeIcon from "../Images/resume-icon.png"
 import LinkInIcon from "../Images/linkedin-icon.png"
 
-import Resume from "../JChen resume.pdf"
+import Resume from "../resumeJChen.pdf"
 
 export default function Contact (){
 
